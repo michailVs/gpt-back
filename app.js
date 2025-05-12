@@ -4,7 +4,7 @@ import OpenAI from 'openai/index.mjs'
 import cors from 'cors'
 
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3002
 
 
 app.use(cors({
